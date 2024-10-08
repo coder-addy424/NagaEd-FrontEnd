@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-div{
+    
+    width: 350px;
+     background-color: rgb(114, 236, 226);
+     border-radius: 10px;
+     box-shadow: 0 0 15px black;
+}
+
+body{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #abf0f0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+label{
+   font-size: 30px;
+   font-family: sans-serif;
+   color: rgb(14, 121, 130);
+}
+input{
+    width: 250px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 15px;
+    outline: none;
+}
+button{
+
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(64, 64, 245);
+    border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <meta charset="en">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        span { color: red; }
+    </style>
+</head>
+<body>
+    <div id="main-div">
+        <h2 align="center" style="font-size: 40px; font-family: sans-serif; text-decoration: underline; color: rgb(14, 121, 130);">Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Enter Full Name</label><br>
+            <input type="text" id="name" placeholder="Enter your name" autocomplete="given-name"><br>
+            <span id="errname"></span><br>
+            
+            <label for="email">Enter E-mail</label><br>
+            <input type="email" id="email" placeholder="Enter your E-mail" autocomplete="off"><br>
+            <span id="errem"></span><br>
+            <div style="display: flex; justify-content: center;">
+                <button type="button" id="submitBtn">Notify</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
